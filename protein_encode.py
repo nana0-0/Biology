@@ -21,5 +21,6 @@ def translate(DNA):
         start += 3
     return ''.join(protein)
 
-print("Seq1: ", seq1, "Translated: ", Translate(seq1))
-print("Seq2: ", seq2, "Translated: ", Translate(seq2))
+
+print("Seq1: ", seq1, "Translated: ", translate(seq1))
+print("Seq2: ", seq2, "Translated: ", translate(seq2))
